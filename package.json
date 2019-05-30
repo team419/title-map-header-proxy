@@ -4,7 +4,8 @@
   "description": "Proxy repo for combining all four modules created by Team 419",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon proxy-server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/team419/title-map-header-proxy/issues"
   },
-  "homepage": "https://github.com/team419/title-map-header-proxy#readme"
+  "homepage": "https://github.com/team419/title-map-header-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
+    "path": "^0.12.7"
+  }
 }
