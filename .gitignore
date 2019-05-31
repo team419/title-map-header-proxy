@@ -3,6 +3,7 @@ comments-module
 photo-gallery-module
 reservations-module
 title-map-header-module
+navigation-module
 
 # dependency files
 package-lock.json
